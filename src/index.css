@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+}
+
+.posts-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+  justify-content: center;
+}
+
+.post-input {
+  border: 2px solid rgb(170, 162, 162);
+  height: 1.5rem;
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* box-sizing: border-box; */
+}

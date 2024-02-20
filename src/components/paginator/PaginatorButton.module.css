@@ -1,0 +1,16 @@
+.paginator__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    padding-inline: 10px;
+    font-size: 1rem;
+    color: darkblue;
+    background: white;
+}
+
+.paginator__button.active {
+    background: darkblue;
+    color: white; 
+}
